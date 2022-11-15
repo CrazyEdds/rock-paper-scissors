@@ -1,0 +1,44 @@
+.rock, .paper, .scissors {
+    background-color: lightgrey;
+    border: solid;
+    width: 6rem;
+    height: 6rem;
+}
+
+.gameArea {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+.counterArea {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.counterLabel, .counter {
+    font-size: 2rem;
+}
+
+.counter {
+    border: solid;
+    padding: 0.25rem;
+}
+
+.resultArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    width: 4rem;
+}
+
+.resultMessage {
+    font-size: 2rem;
+}
+
+
